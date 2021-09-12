@@ -14,7 +14,7 @@ export default function TheNavbar() {
                 <ul className="flex items-center gap-4">
                     {applinks.map((linkName) => {
                         return (
-                            <li className="text-teal hover:underline">
+                            <li key={linkName.text} className="text-teal hover:underline">
                                 <NavLink
                                     end
                                     className={({ isActive }) =>
