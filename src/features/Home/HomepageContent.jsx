@@ -1,4 +1,5 @@
 import React from "react";
+import HomeCounter from "./HomeCounter";
 
 export default function HomepageContent() {
     return (
@@ -44,6 +45,9 @@ export default function HomepageContent() {
                 </a>{" "}
                 as a build tool.
             </p>
+        
+            {/* counter */}
+            <HomeCounter />
         </div>
     );
 }
