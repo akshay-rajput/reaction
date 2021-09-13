@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "tailwindcss/tailwind.css";
+import "./tailwind.css";
 import "./App.css";
 
 // redux
