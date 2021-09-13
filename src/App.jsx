@@ -4,7 +4,7 @@ import "./App.css";
 
 // redux
 import { useDispatch } from 'react-redux';
-import { setupCounter } from "./features/home/homeSlice";
+import { setupCounter } from "./features/Home/homeSlice";
 
 // components
 import TheNavbar from "./features/shared/TheNavbar";
